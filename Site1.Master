@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Library_Management_System.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+	<meta name="Keywords" content="Library Management System">
+	<meta name="Description" content="E-Library application will help you to cchoose right books and many more facilities!">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Google Font -->
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Katibeh' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Ribeye Marrow' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <br /><br />
+    <p class="bg-primary" style="text-align:center; padding-top:100px; padding-bottom:100px;">&copy; Alim Abdul 2021</p>
+</body>
+</html>
